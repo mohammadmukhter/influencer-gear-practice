@@ -227,3 +227,24 @@ body {
   border: 0;
   margin-top: 16px;
 }
+
+/* footer section CSS code start */
+.footer-section {
+  padding: 50px 490px;
+  background-color: #0a0826;
+  color: #ffffff;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.footer-description {
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+  text-align: center;
+}
+.footer-connect {
+  text-align: center;
+}
