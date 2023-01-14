@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   border: 1px solid rebeccapurple;
   font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
   /* font-family: "Work Sans", sans-serif; */
 }
 
@@ -121,4 +122,108 @@ body {
 }
 .ad a img {
   width: 100%;
+}
+
+/* popular section css start */
+.popular-section {
+  margin: 0 200px;
+}
+.popular-title {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+  grid-gap: 30px;
+}
+.collection {
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.collection-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #18191f;
+  padding-top: 15px;
+}
+.collection-price {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.collection-rating {
+  font-weight: 700;
+  font-size: 14px;
+  color: #5e6366;
+}
+.collection-description {
+  font-weight: 700;
+  font-size: 14px;
+  color: #787885;
+  padding-bottom: 15px;
+}
+.collection-img img {
+  width: 100%;
+  height: 100%;
+}
+.next-btn {
+  text-align: right;
+  margin-top: 30px;
+}
+.next-btn a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(224, 44, 109, 0.87);
+  vertical-align: middle;
+}
+.next-i {
+  vertical-align: middle;
+}
+
+/* Featured section CSS start */
+
+.featured-section {
+  margin: 100px 165px;
+}
+.featured-product {
+  display: flex;
+  gap: 96px;
+}
+.featured-product .featured-img img {
+  width: 404px;
+  height: 270px;
+}
+.featured-title {
+  font-weight: 700;
+  font-size: 38px;
+  color: #0a0826;
+}
+.featured-description {
+  font-weight: 700;
+  font-size: 12px;
+  color: #6c6c6c;
+  width: calc(100% - 60px);
+  margin-top: 16px;
+}
+.featured-btn {
+  padding: 10px 24px;
+  width: 155px;
+  height: 44px;
+  background: #e02c6d;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  margin-top: 16px;
 }
